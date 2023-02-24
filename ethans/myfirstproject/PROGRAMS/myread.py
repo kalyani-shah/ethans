@@ -1,0 +1,10 @@
+infile = open(r'./../DATA/k.txt','r')
+print(infile.read())
+infile.seek(0)
+print(infile.read())
+infile.seek(0)
+print(infile.readline())
+print(infile.readlines())
+infile.seek(0)
+for each in infile:
+    print(each)

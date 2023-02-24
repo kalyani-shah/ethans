@@ -1,0 +1,78 @@
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:1
+How Many No. Of Student To Be Added:2
+enter student roll number:101
+enter student name:Amit
+enter english marks:65
+enter student roll number:102
+enter student name:Jatin
+enter english marks:88
+
+
+student data: {101: {'name': 'Amit', 'marks': {'eng': 65}}, 102: {'name': 'Jatin', 'marks': {'eng': 88}}}
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:3
+enetr student roll number to be search:101
+
+
+student is present in database:
+{'name': 'Amit', 'marks': {'eng': 65}}
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:3
+enetr student roll number to be search:103
+
+
+student is not present in database!!!!!! PLEASE ADD STUDENT!!!!!!
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:2
+enter roll of student that you want to delete:107
+Roll number doesnt exists!!
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:2
+enter roll of student that you want to delete:101
+
+dictinary after removing desire student: {102: {'name': 'Jatin', 'marks': {'eng': 88}}}
+
+
+1: Add Student
+2:Remove Student
+3:Search Student
+4:Exit
+
+
+enter your choice:
